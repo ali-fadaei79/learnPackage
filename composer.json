@@ -1,0 +1,20 @@
+{
+    "name": "parsaco/auth-test-package",
+    "type": "n",
+    "license": "n",
+    "authors": [
+        {
+            "name": "ali-fadaei79",
+            "email": "ali2079fada@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "parsaco\\authtestpackage" : "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": ">=v6.0.0",
+        "livewire/livewire" : "^v2.10"
+    }
+}
